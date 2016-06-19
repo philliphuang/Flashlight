@@ -70,6 +70,10 @@ def results(parsed, original_query):
         '''
     }
 
+def run(url):
+    import os
+    os.system('open "{0}"'.format(url.replace('/m/translate', '/')))
+
 # Previous run function
 '''
 def run(text):
